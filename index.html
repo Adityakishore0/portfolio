@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Aditya Kishore - Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #0f0f0f;
+      --subtle: #5f5f5f;
+      --muted: #f8f9fa;
+      --border: #e4e4e7;
+      --accent: #1a1aff;
+      --font: 'Inter', system-ui, sans-serif;
+      --radius: 12px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--text);
+      padding: 64px 24px;
+      max-width: 860px;
+      margin-inline: auto;
+      line-height: 1.75;
+    }
+
+    h1 {
+      font-size: 3.2rem;
+      font-weight: 700;
+      margin-bottom: 16px;
+      letter-spacing: -0.5px;
+    }
+
+    p.lead {
+      font-size: 1.25rem;
+      color: var(--subtle);
+      margin-bottom: 48px;
+      max-width: 600px;
+    }
+
+    section {
+      margin-bottom: 64px;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      font-weight: 600;
+      margin-bottom: 24px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 10px;
+    }
+
+    h3 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-top: 24px;
+      margin-bottom: 8px;
+    }
+
+    p {
+      font-size: 1.05rem;
+      margin-bottom: 16px;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin-bottom: 24px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: var(--accent);
+      font-weight: 500;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: all 0.2s ease;
+    }
+
+    a:hover {
+      border-bottom: 1px solid var(--accent);
+    }
+
+    .cta {
+      display: inline-block;
+      margin-top: 6px;
+      font-size: 0.95rem;
+    }
+
+    .card {
+      background-color: var(--muted);
+      padding: 24px;
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      margin-bottom: 24px;
+    }
+
+    .contact-links a {
+      display: inline-block;
+      margin-right: 16px;
+      margin-top: 8px;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2.4rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+
+      p.lead {
+        font-size: 1.05rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Aditya Kishore</h1>
+  <p class="lead">Frontend developer crafting sleek, fast, and AI-driven user experiences with precision and creativity.</p>
+
+  <section>
+    <h2>About Me</h2>
+    <p>
+      I’m a self-taught developer from Purnia, Bihar. I specialize in clean design systems, interactive web UI, and creative digital tools powered by React and AI. I love building future-facing products with detail and purpose.
+    </p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="card">
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>React, Next.js, TypeScript</li>
+        <li>UI/UX Design Systems</li>
+      </ul>
+    </div>
+
+    <h2>Interests</h2>
+    <div class="card">
+      <ul>
+        <li>Human-centered AI interfaces</li>
+        <li>Creative UI engineering</li>
+        <li>Open source design libraries</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+
+    <div class="card">
+      <h3>Aetheris AI</h3>
+      <p>
+        A futuristic AI interface blending performance, intelligent UX, and motion-rich design. Designed to feel natural and seamless.
+        <br><a href="https://aetheris-3-0-cwa3.vercel.app/" class="cta" target="_blank">Launch Project ↗</a>
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>ScrollX UI</h3>
+      <p>
+        An open-source set of scroll-based components — sticky cards, animated slices, and motion transitions for high-end frontend apps.
+        <br><a href="https://github.com/yourusername/scrollx-ui" class="cta" target="_blank">Explore ↗</a>
+      </p>
+    </div>
+
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Email: aditykishore0074@gmail.com</p>
+    <div class="contact-links">
+      <a href="https://www.linkedin.com/in/aditya-kishore-519068341/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/Adityakishore0" target="_blank">GitHub</a>
+    </div>
+  </section>
+
+</body>
+</html>
